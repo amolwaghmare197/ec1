@@ -21,8 +21,8 @@ public class cliCont {
 	@GetMapping("/all")
 	public void getAll() {
 		List<loginDet> a1 = repo.findAll();
-		
-		boolean s1 = repo.existsById(1L);
+		String s1 = "amol";
+		boolean s4 = repo.existsById(1L);
 		System.out.println(s1);
 	}
 }
